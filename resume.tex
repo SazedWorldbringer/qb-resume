@@ -1,0 +1,95 @@
+\documentclass[11pt, oneside, a4paper, titlepage]{article}
+
+% We use the 'tcolorbox' package to create most of the formatting.
+\usepackage[most]{tcolorbox}
+
+% We use the 'geometry' package to set the margins to be exactly what we want.
+% In this case 2.54 cm (1 inch) all around, to match those that MS word uses by default.
+% Note that we use different margins at the top and bottom
+% to take account of the custom header and footer that we are using.
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    left=0.1cm,
+    right=0.1cm,
+    top=0.1cm,
+    bottom=0.1cm
+}
+
+\usepackage{hyperref}
+
+\definecolor{titleBack}{RGB}{0, 66, 21}
+
+\title{Atharva Pardeshi}
+\date{}
+
+\begin{document}
+
+\tcbset{colframe=gray!95!black,colback=titleBack,arc=0mm}
+\begin{tcolorbox}
+  \begin{minipage}{4.5cm}
+    \hspace*{-0.2cm}\includegraphics[width=4cm]{spooky-sazed.png}
+  \end{minipage}
+  \begin{minipage}{15cm}
+    \begin{center}
+      \Huge{\textcolor{white}{Atharva Pardeshi}} \\
+      \vspace*{0.5cm}
+      \Large{\textcolor{white}{\emph{Software Developer}}}
+    \end{center}
+  \end{minipage}
+\end{tcolorbox}
+
+\tcbset{colframe=white,colback=white,arc=0mm}
+\begin{tcolorbox}
+  \begin{minipage}[t]{8cm}
+    \vspace*{-0.5cm}
+    \begin{tcolorbox}[grow to left by=0.6cm,colback=gray!25,colframe=white]
+
+      \section*{Profile}
+      \begin{itemize}
+        \item{
+      I am a self-taught software developer,
+      who believes great software is easy to read,
+      maintain and debug, and I strive to write great software.
+          }
+        \item{
+      I believe coding standards and best practices are absolutely critical
+      for the long-term success of any software project.
+      I see teamwork, open communication and compassion
+      as the most key values for working together.
+          }
+        \item{
+      Having a team-oriented approach, I enjoy being helpful.
+          }
+        \item{
+      My greatest personality asset is my confident,
+      friendly, and easy-going nature.
+          }
+        \item{
+      Empathy, calm, and optimism
+      help me deal well with everyday challenges and pressure.
+        }
+      \item{
+      I strive to be curious, humble and ready to adapt
+      as I believe those are the most important qualities to have
+      for succeeding in the tech industry.
+        }
+      \end{itemize}
+
+      \section*{Contact}
+      \begin{tabular}{r l}
+        Email: & \href{mailto:atharva.exe@gmail.com}{atharva.exe@gmail.com} \\
+        Website: & \href{https://atharva-pardeshi.netlify.app}{atharva-pardeshi.netlify.app} \\
+        GitHub: & \href{https://github.com/SazedWorldbringer}{SazedWorldbringer} \\
+        Linkedin: & \href{https://linkedin.com/in/atharvapardeshi}{atharvapardeshi} \\
+      \end{tabular}
+
+      \section*{Expertise}
+        \subsection{Programming, Scripting and Markup Languages}
+        C, C++, JavaScript, Python, Sql, {\LaTeX}, HTML, CSS, SASS/LESS, Markdown
+
+    \end{tcolorbox}
+  \end{minipage}
+\end{tcolorbox}
+
+\end{document}
