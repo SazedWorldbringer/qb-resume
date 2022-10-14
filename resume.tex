@@ -20,6 +20,20 @@
 
 \definecolor{titleBack}{RGB}{0, 66, 21}
 
+\usepackage{titlesec}
+
+\titleformat{\section}
+{\LARGE}
+{}
+{-1em}
+{\bfseries\lowercase}[]
+
+\titleformat{\subsubsection}[runin]
+{}
+{}
+{0em}
+{\bfseries}[ ---]
+
 \title{Atharva Pardeshi}
 \date{}
 
@@ -48,22 +62,17 @@
       \section*{Profile}
       \begin{itemize}
         \item{
-      I am a self-taught software developer,
+      A self-taught software developer,
       who believes great software is easy to read,
-      maintain and debug, and I strive to write great software.
+      maintain and debug.
           }
         \item{
       I believe coding standards and best practices are absolutely critical
       for the long-term success of any software project.
+          }
+        \item{
       I see teamwork, open communication and compassion
       as the most key values for working together.
-          }
-        \item{
-      Having a team-oriented approach, I enjoy being helpful.
-          }
-        \item{
-      My greatest personality asset is my confident,
-      friendly, and easy-going nature.
           }
         \item{
       Empathy, calm, and optimism
@@ -71,7 +80,7 @@
         }
       \item{
       I strive to be curious, humble and ready to adapt
-      as I believe those are the most important qualities to have
+      believing those are the most important qualities to have
       for succeeding in the tech industry.
         }
       \end{itemize}
@@ -85,9 +94,14 @@
       \end{tabular}
 
       \section*{Expertise}
-        \subsection{Programming, Scripting and Markup Languages}
-        C, C++, JavaScript, Python, Sql, {\LaTeX}, HTML, CSS, SASS/LESS, Markdown
+        \subsubsection{Programming, Scripting and Markup Languages}
+        C, Lisp, JavaScript, Python, Sql, {\LaTeX}, HTML, CSS, SASS/LESS, Markdown
 
+        \subsubsection{Libraries/Frameworks}
+        React.js, Redux, Node.js, MongoDb, TailwindCSS, BootStrap, Firebase
+
+        \subsubsection{Work Flow}
+        Neo(Vim), Git, GitHub, Terminal, Linux/Windows
     \end{tcolorbox}
   \end{minipage}
 \end{tcolorbox}
