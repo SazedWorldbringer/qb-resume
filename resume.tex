@@ -18,8 +18,15 @@
 
 \usepackage{hyperref}
 
-\definecolor{titleBack}{RGB}{60, 9, 108}
+\definecolor{titleBack}{RGB}{54, 53, 55}
 % original titleBack {0, 66, 21}
+% Jet {54, 53, 55}
+% Melon {253, 179, 169}
+% Deep Taupe {124, 97, 108}
+% Independence {72, 77, 109}
+% Indigo Dye {34, 72, 112}
+% Dark Purple {65, 34, 52}
+
 \definecolor{lightPurple}{RGB}{242, 235, 251}
 
 \definecolor{someOrange}{RGB}{255, 192, 92}
@@ -47,6 +54,9 @@
 \title{Atharva Pardeshi}
 \date{}
 
+\newcommand\experienceVSpace{\vspace{-0.1cm}}
+\newcommand\skillsVSpace{\vspace{-0.3cm}}
+
 \begin{document}
 
 \tcbset{colframe=gray!95!black,colback=titleBack,arc=0mm}
@@ -55,12 +65,11 @@
   %   \hspace*{-0.2cm}\includegraphics[width=4cm]{spooky-sazed.png}
   % \end{minipage}
   \begin{minipage}{4.5cm}
-    \vspace{0.5cm}
     \subsection{\textcolor{white}{Contact}}
-    \textcolor{white}{Email:}\href{mailto:atharva.exe@gmail.com}{\underline{\textcolor{white}{atharva.exe@gmail.com}}} \\
-    \textcolor{white}{Website:}\href{https://atharva-pardeshi.netlify.app}{\underline{\textcolor{white}{atharva-pardeshi.netlify.app}}} \\
-    \textcolor{white}{GitHub:}\href{https://github.com/SazedWorldbringer}{\underline{\textcolor{white}{SazedWorldbringer}}} \\
-    \textcolor{white}{Linkedin:}\href{https://linkedin.com/in/atharvapardeshi}{\underline{\textcolor{white}{atharvapardeshi}}} \\
+    \textcolor{white}{Email-}\href{mailto:atharva.exe@gmail.com}{\underline{\textcolor{white}{atharva.exe@gmail.com}}} \\
+    \textcolor{white}{Website-}\href{https://atharva-pardeshi.netlify.app}{\underline{\textcolor{white}{atharva-pardeshi.netlify.app}}} \\
+    \textcolor{white}{GitHub-}\href{https://github.com/SazedWorldbringer}{\underline{\textcolor{white}{SazedWorldbringer}}} \\
+    \textcolor{white}{Linkedin-}\href{https://linkedin.com/in/atharvapardeshi}{\underline{\textcolor{white}{atharvapardeshi}}} \\
   \end{minipage}
   \begin{minipage}{15cm}
     \begin{center}
@@ -107,13 +116,15 @@
       \section*{Skills}
         \subsubsection{Programming, Scripting and Markup Languages}
         C, Lisp, JavaScript, Python, Sql, {\LaTeX}, HTML, CSS, SASS/LESS, Markdown
-
+        \skillsVSpace
         \subsubsection{Libraries/Frameworks}
-        React.js, Redux, Node.js, TailwindCSS
+        React.js, Next.js, Node.js, TailwindCSS, Chakra UI, Material UI
 
+        \skillsVSpace
         \subsubsection{Work Flow}
-        Neo(Vim), VSCode, Git, GitHub, Terminal, Linux/Windows
+        (Neo)Vim, VSCode, Git, GitHub, Terminal, Linux/Windows
 
+        \skillsVSpace
         \subsubsection{Computer Science}
         Algorithms \& Data Structures, 
 
@@ -133,11 +144,22 @@
         \item
         {
           \textbf{Jammming} \\
-          \textit{A playlist app with the Spotify API} \\
-          \textit{Live-  \href{http://the-eolian.surge.sh}{\underline{the-eolian.surge.sh}} | \href{https://github.com/SazedWorldbringer/codecademy-jammming}{\underline{GitHub Repo}}} \\
+          \textit{A playlist app made with the Spotify API} \\
+          \textit{Live-  \href{https://jammming-sazed.netlify.app}{\underline{jammming-sazed.netlify.app}} | \href{https://github.com/SazedWorldbringer/codecademy-jammming}{\underline{GitHub Repo}}} \\
           \vspace*{-0.7cm}
           \begin{itemize}
-            \item Allow users to search the Spotify library, create custom playlist, and save it to their Spotify accounts 
+            \item Connects to user's Spotify account.
+              \experienceVSpace
+            \item {Allow users to:
+                \vspace{-0.2cm}
+                \begin{enumerate} 
+                  \item{Search the Spotify library,}
+                    \vspace{-0.2cm}
+                  \item{Create custom playlists,} 
+                    \vspace{-0.2cm}
+                  \item{And save the playlist to their Spotify accounts.}
+                \end{enumerate}
+              }
           \end{itemize}
         }
 
@@ -149,7 +171,9 @@
           \vspace*{-0.7cm}
           \begin{itemize}
             \item Project line 1
+              \experienceVSpace
             \item Project line 1
+              \experienceVSpace
             \item Project line 1
           \end{itemize}
         }
@@ -161,9 +185,11 @@
           \textit{Live- \href{https://ninja-food-repo.netlify.app}{\underline{ninja-food-repo.netlify.app}} | \href{https://github.com/SazedWorldbringer/ninjafood}{\underline{GitHub Repo}}} \\
           \vspace*{-0.7cm}
           \begin{itemize}
-            \item Fetch recipes from TheMealDB API, for random recipe and search results
-            \item Like a recipe by saving it to localstorage
-            \item Implemented the UI using TailwindCSS
+            \item Fetch recipes from TheMealDB API.
+              \experienceVSpace
+            \item Like a recipe by saving it to localstorage.
+              \experienceVSpace
+            \item Implemented the UI using TailwindCSS.
           \end{itemize}
         }
 
@@ -175,7 +201,9 @@
           \vspace*{-0.7cm}
           \begin{itemize}
             \item Landing page with a nice, minimal UI
+              \experienceVSpace
             \item Implemented the UI using TailwindCSS
+              \experienceVSpace
             \item Used react-type-animation for the typing animation
           \end{itemize}
         }
@@ -188,7 +216,9 @@
           \vspace*{-0.7cm}
           \begin{itemize}
             \item Project line 1
+              \experienceVSpace
             \item Project line 1
+              \experienceVSpace
             \item Project line 1
           \end{itemize}
         }
